@@ -1,14 +1,11 @@
 packer-centos-7
 ===
 
+Forked from hfm/packer-centos-7 to specify US mirrors for the CentOS7-netinstall iso.
+
 ```
-vagrant init hfm4/centos7
 vagrant up
 ```
-
-### Box url
-
-- https://atlas.hashicorp.com/hfm4/boxes/centos7
 
 Build box
 ---

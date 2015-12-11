@@ -5,12 +5,18 @@
       "guest_os_type": "RedHat_64",
       "iso_checksum_type": "md5",
       "iso_checksum": "111379a06402e1e445c6aeee9401d031",
-      "iso_url": "http://ftp.riken.jp/Linux/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1503.iso",
+      "iso_urls": [
+        "http://mirror.lax.hugeserver.com/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1503.iso",
+        "http://centos.hostingxtreme.com/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1503.iso",
+        "http://mirrors.mit.edu/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1503.iso",
+        "http://mirrors.maine.edu/CentOS/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1503.iso"
+      ],
       "type": "virtualbox-iso",
       "ssh_password": "vagrant",
       "ssh_username": "vagrant",
       "ssh_wait_timeout": "50000s",
       "headless": "true",
+      "disk_size": "40000",
       "vboxmanage": [
         [
           "modifyvm",
